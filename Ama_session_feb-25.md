@@ -14,7 +14,6 @@ print(s[1:3])
 Rollback is used to cancel the changes made in a transaction.  
 For example, if money is deducted from one account but not added to another, rollback cancels the deduction.
 
-----------
 
 ### Isolation
 
@@ -32,8 +31,6 @@ For example, student ID and course ID together can uniquely identify a studentâ€
 ### Extract Keys and Values in Dictionary
 To extract both keys and values together from a dictionary, we use  `.items()`.  
 It returns key and value pairs as tuples, which we can loop through or convert into a list if needed.
-
-----------
 
 ### O(log n) Time Complexity
 
@@ -53,7 +50,6 @@ For example, grouping employees by department to find the total salary in each d
 ORDER BY is used to arrange the result in sorted order.  
 For example, sorting students based on marks from highest to lowest.
 
-----------
 
 ### Append and Extend
 Append is a list method used to add one element to the end of a list.  
