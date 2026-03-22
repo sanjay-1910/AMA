@@ -118,35 +118,9 @@ Output
 
 ```
 
-Description
 
-Object properties are copied into a new object.  
-This technique is commonly used in React state updates and API data handling.
 
----
 
-### Overriding Properties
-
-```js
-let user = { name: "A", age: 20 };
-
-let updated = { ...user, age: 25 };
-console.log(updated);
-```
-
-Output
-
-```
-{ name: "A", age: 25 }
-
-```
-
-Description
-
-If duplicate properties exist, the last value overrides previous ones.  
-This is useful for updating object data without mutating the original object.
-
----
 
 ## 2. Template Literals
 
@@ -354,26 +328,7 @@ Comma can be used to skip unwanted values.
 
 ---
 
-### Default Values
 
-```js
-let [p = 5, q = 10] = [1];
-
-console.log(p, q);
-```
-
-Output
-
-```
-1 10
-
-```
-
-Description
-
-Default values are used when array elements are missing.
-
----
 
 ### Rest Pattern
 
@@ -421,23 +376,4 @@ Object properties are extracted using property names.
 
 ---
 
-### Renaming Variable
 
-```js
-let { name: username } = user;
-
-console.log(username);
-```
-
-Output
-
-```
-Sanjay
-
-```
-
-Description
-
-Variables can be renamed while destructuring.
-
----
