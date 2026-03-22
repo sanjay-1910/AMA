@@ -330,28 +330,7 @@ Comma can be used to skip unwanted values.
 
 
 
-### Rest Pattern
 
-```js
-let [first, ...rest] = [1, 2, 3, 4];
-
-console.log(first);
-console.log(rest);
-```
-
-Output
-
-```
-1
-[2, 3, 4]
-
-```
-
-Description
-
-Rest operator collects remaining elements into an array.
-
----
 
 ### Object Destructuring
 
